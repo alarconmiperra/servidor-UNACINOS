@@ -1,73 +1,569 @@
-[09Dec2024 01:44:03.409] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[09Dec2024 01:44:03.413] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[09Dec2024 01:44:03.576] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[09Dec2024 01:44:03.639] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/laughing-fiesta/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[09Dec2024 01:44:03.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/laughing-fiesta/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.10/fmlcore-1.20.1-47.3.10.jar is missing mods.toml file
-[09Dec2024 01:44:03.902] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/laughing-fiesta/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.10/javafmllanguage-1.20.1-47.3.10.jar is missing mods.toml file
-[09Dec2024 01:44:03.903] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/laughing-fiesta/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.10/lowcodelanguage-1.20.1-47.3.10.jar is missing mods.toml file
-[09Dec2024 01:44:03.905] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/laughing-fiesta/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.10/mclanguage-1.20.1-47.3.10.jar is missing mods.toml file
-[09Dec2024 01:44:04.005] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[09Dec2024 01:44:05.985] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[09Dec2024 01:44:14.957] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.10, for MC 1.20.1 with MCP 20230612.114412
-[09Dec2024 01:44:14.964] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.10 Initialized
-[09Dec2024 01:44:15.899] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[09Dec2024 01:44:16.026] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[09Dec2024 01:44:16.032] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[09Dec2024 01:44:16.037] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[09Dec2024 01:44:16.038] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[09Dec2024 01:44:16.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[09Dec2024 01:44:17.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
-[09Dec2024 01:44:17.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09Dec2024 01:44:17.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.10 Target: 47.3.12
-[09Dec2024 01:44:18.637] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09Dec2024 01:44:19.622] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/laughing-fiesta/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
-[09Dec2024 01:44:19.623] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/laughing-fiesta/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
-[09Dec2024 01:44:22.260] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[09Dec2024 01:44:22.484] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[09Dec2024 01:44:23.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[09Dec2024 01:44:23.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[09Dec2024 01:44:23.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[09Dec2024 01:44:23.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09Dec2024 01:44:23.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[09Dec2024 01:44:23.498] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[09Dec2024 01:44:23.609] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09Dec2024 01:44:23.609] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[09Dec2024 01:44:23.610] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09Dec2024 01:44:23.610] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[09Dec2024 01:44:23.681] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[09Dec2024 01:44:33.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09Dec2024 01:44:39.670] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.672] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.673] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.674] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.676] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.686] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.696] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.697] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.698] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.700] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.702] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.708] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:39.733] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:40.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:40.733] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:41.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Dec2024 01:44:41.985] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8753 ms
-[09Dec2024 01:44:41.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.358s)! For help, type "help"
-[09Dec2024 01:44:42.012] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09Dec2024 01:44:42.013] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[09Dec2024 01:44:42.038] [VoiceChatServerThread/ERROR] [voicechat/]: [voicechat] Failed to parse bind IP address '100.109.23.10 '
-java.net.UnknownHostException: 100.109.23.10 : Name or service not known
-	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
-	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
-	at java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
-	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
-	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
-	at java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
-	at java.net.InetAddress.getByName(InetAddress.java:1568) ~[?:?]
-	at de.maxhenkel.voicechat.plugins.impl.VoicechatSocketImpl.open(VoicechatSocketImpl.java:25) ~[voicechat-forge-1.20.1-2.5.26.jar%23101!/:1.20.1-2.5.26]
-	at de.maxhenkel.voicechat.voice.server.Server.run(Server.java:102) ~[voicechat-forge-1.20.1-2.5.26.jar%23101!/:1.20.1-2.5.26]
-[09Dec2024 01:44:42.042] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Binding to wildcard IP address
-[09Dec2024 01:44:42.044] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 100.109.23.10 :24454
+[13Dec2024 01:03:51.577] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[13Dec2024 01:03:51.581] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[13Dec2024 01:03:51.923] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Dec2024 01:03:51.932] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[13Dec2024 01:03:51.934] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/servidor-UNACINOS/servidor_minecraft/mods/OptiFine-1.20.1_HD_U_I6_pre6.jar%23133!/
+[13Dec2024 01:03:51.941] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/servidor-UNACINOS/servidor_minecraft/mods/OptiFine-1.20.1_HD_U_I6_pre6.jar
+[13Dec2024 01:03:51.942] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[13Dec2024 01:03:51.997] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor-UNACINOS/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Dec2024 01:03:52.005] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[13Dec2024 01:03:52.324] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor-UNACINOS/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.10/fmlcore-1.20.1-47.3.10.jar is missing mods.toml file
+[13Dec2024 01:03:52.326] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor-UNACINOS/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.10/javafmllanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[13Dec2024 01:03:52.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor-UNACINOS/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.10/lowcodelanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[13Dec2024 01:03:52.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor-UNACINOS/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.10/mclanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[13Dec2024 01:03:52.482] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13Dec2024 01:03:53.055] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[13Dec2024 01:03:53.068] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[13Dec2024 01:03:53.841] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[13Dec2024 01:03:54.482] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Dec2024 01:03:54.505] [main/ERROR] [mixin/]: Mixin config geckoanimfix.forge.mixins.json does not specify "minVersion" property
+[13Dec2024 01:03:54.532] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[13Dec2024 01:03:54.571] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2024 01:03:54.574] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2024 01:04:02.165] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[13Dec2024 01:04:02.470] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.10, for MC 1.20.1 with MCP 20230612.114412
+[13Dec2024 01:04:02.470] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.10 Initialized
+[13Dec2024 01:04:04.065] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[13Dec2024 01:04:04.229] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[13Dec2024 01:04:04.249] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[13Dec2024 01:04:04.249] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[13Dec2024 01:04:04.249] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[13Dec2024 01:04:04.264] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[13Dec2024 01:04:04.385] [main/INFO] [journeymap/]: Initializing Packet Registries
+[13Dec2024 01:04:04.589] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[13Dec2024 01:04:04.628] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[13Dec2024 01:04:04.652] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[13Dec2024 01:04:04.658] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[13Dec2024 01:04:04.660] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[13Dec2024 01:04:05.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.26 Target: null
+[13Dec2024 01:04:05.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Starting version check at https://api.modrinth.com/updates/EEIwvQVo/forge_updates.json
+[13Dec2024 01:04:06.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Found status: OUTDATED Current: 1.2 Target: 1.3.4+mod
+[13Dec2024 01:04:06.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[13Dec2024 01:04:06.126] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[13Dec2024 01:04:06.127] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[13Dec2024 01:04:06.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.11 Target: 1.9.12
+[13Dec2024 01:04:06.269] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Dec2024 01:04:06.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.10 Target: 47.3.12
+[13Dec2024 01:04:06.900] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Dec2024 01:04:08.061] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor-UNACINOS/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23167!/assets/.mcassetsroot' uses unexpected schema
+[13Dec2024 01:04:08.062] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor-UNACINOS/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23167!/data/.mcassetsroot' uses unexpected schema
+[13Dec2024 01:04:10.377] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:leftbehind:blocks/corrosion_block
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'leftbehind:corrosion_block'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.10-universal.jar%23172!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.10-universal.jar%23172!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[13Dec2024 01:04:10.518] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[13Dec2024 01:04:10.644] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2139 advancements
+[13Dec2024 01:04:10.652] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[13Dec2024 01:04:10.657] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[13Dec2024 01:04:10.657] [main/INFO] [Dungeon Crawl/]: Loading data...
+[13Dec2024 01:04:10.990] [main/INFO] [Dungeon Crawl/]: Done.
+[13Dec2024 01:04:11.956] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Dec2024 01:04:11.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Dec2024 01:04:11.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Dec2024 01:04:11.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Dec2024 01:04:12.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Dec2024 01:04:12.065] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Dec2024 01:04:12.178] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Dec2024 01:04:12.179] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Dec2024 01:04:12.180] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Dec2024 01:04:12.180] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Dec2024 01:04:12.203] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[13Dec2024 01:04:12.204] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[13Dec2024 01:04:12.206] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[13Dec2024 01:04:12.295] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Dec2024 01:04:15.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Dec2024 01:04:19.230] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:19.245] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:19.266] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:19.276] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:19.288] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:19.301] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:19.320] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:19.338] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:19.504] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Dec2024 01:04:20.004] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[13Dec2024 01:04:20.360] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4857 ms
+[13Dec2024 01:04:20.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.163s)! For help, type "help"
+[13Dec2024 01:04:20.389] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Dec2024 01:04:20.420] [Server thread/INFO] [net.stardustlabs.nullscape.Nullscape/]: Thanks for choosing Nullscape!
+[13Dec2024 01:04:20.424] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13Dec2024 01:04:20.434] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 100.71.31.114:24454
+[13Dec2024 01:06:14.788] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4925ab16[id=<null>,name=doriopicante17,properties={},legacy=false] (/100.114.224.29:51284) lost connection: Disconnected
+[13Dec2024 01:06:17.830] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: doriopicante17[/100.114.224.29:51285] logged in with entity id 246 at (-67.71967761917124, 69.56571006307684, 58.276731592605266)
+[13Dec2024 01:06:17.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 joined the game
+[13Dec2024 01:06:18.101] [Server thread/INFO] [Jade/]: Syncing config to doriopicante17 (fd2d656f-c95b-38f2-bf73-ddb5b769f932)
+[13Dec2024 01:06:18.130] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of doriopicante17 (18)
+[13Dec2024 01:06:18.132] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to doriopicante17
+[13Dec2024 01:06:19.571] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fd2d656f-c95b-38f2-bf73-ddb5b769f932
+[13Dec2024 01:06:20.567] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fd2d656f-c95b-38f2-bf73-ddb5b769f932
+[13Dec2024 01:06:20.573] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player doriopicante17 (fd2d656f-c95b-38f2-bf73-ddb5b769f932) successfully connected to voice chat
+[13Dec2024 01:06:57.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Set own game mode to Survival Mode]
+[13Dec2024 01:07:46.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 has made the advancement [Monster Hunter]
+[13Dec2024 01:07:50.786] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-54, y=69, z=83}
+[13Dec2024 01:09:44.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Gamerule keepInventory is now set to: true]
+[13Dec2024 01:11:27.622] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Only_Edu[/100.121.11.80:58381] logged in with entity id 1233 at (51.957975946658486, 49.0, 37.24017096184969)
+[13Dec2024 01:11:27.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu joined the game
+[13Dec2024 01:11:27.684] [Server thread/INFO] [Jade/]: Syncing config to Only_Edu (324a55c4-c49b-345c-bcad-20ad62fbcf82)
+[13Dec2024 01:11:29.058] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Only_Edu (18)
+[13Dec2024 01:11:29.059] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Only_Edu
+[13Dec2024 01:11:35.618] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 324a55c4-c49b-345c-bcad-20ad62fbcf82
+[13Dec2024 01:11:36.622] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 324a55c4-c49b-345c-bcad-20ad62fbcf82
+[13Dec2024 01:11:36.622] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Only_Edu (324a55c4-c49b-345c-bcad-20ad62fbcf82) successfully connected to voice chat
+[13Dec2024 01:11:54.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> matame
+[13Dec2024 01:12:02.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> ./kill
+[13Dec2024 01:12:07.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 was shot by Skeleton
+[13Dec2024 01:12:14.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Killed Only_Edu]
+[13Dec2024 01:12:21.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu was killed
+[13Dec2024 01:12:23.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported Only_Edu to doriopicante17]
+[13Dec2024 01:12:43.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Set own game mode to Creative Mode]
+[13Dec2024 01:13:00.545] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fabianekisde[/100.90.168.86:58936] logged in with entity id 1584 at (8.5, 69.0, 1.5)
+[13Dec2024 01:13:00.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde joined the game
+[13Dec2024 01:13:00.587] [Server thread/INFO] [Jade/]: Syncing config to fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87)
+[13Dec2024 01:13:00.791] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of fabianekisde (18)
+[13Dec2024 01:13:00.793] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to fabianekisde
+[13Dec2024 01:13:01.999] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:13:03.001] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:13:03.001] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87) successfully connected to voice chat
+[13Dec2024 01:13:06.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> alm
+[13Dec2024 01:13:15.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> eso tiene 500 de vida xS
+[13Dec2024 01:13:28.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: The difficulty has been set to Peaceful]
+[13Dec2024 01:13:35.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: The difficulty has been set to Hard]
+[13Dec2024 01:13:38.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> no dropea nada
+[13Dec2024 01:13:44.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> ok
+[13Dec2024 01:13:59.687] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/1019, l='ServerLevel[world]', x=32.64, y=80.00, z=28.36] died, message: 'Unemployed was slain by Hard-To-Destroy Reptile'
+[13Dec2024 01:13:59.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu has made the advancement [Getting an Upgrade]
+[13Dec2024 01:14:37.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde was slain by Hard-To-Destroy Reptile
+[13Dec2024 01:16:52.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> ok emanuel
+[13Dec2024 01:16:56.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> gracias por revivirme
+[13Dec2024 01:18:49.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde has made the advancement [Stone Age]
+[13Dec2024 01:19:03.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde has made the advancement [Getting an Upgrade]
+[13Dec2024 01:19:15.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu discovered the floor was lava
+[13Dec2024 01:19:57.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> hay chat de voz?
+[13Dec2024 01:20:04.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu has made the advancement [Monster Hunter]
+[13Dec2024 01:20:28.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> si hay bb configuralo
+[13Dec2024 01:21:24.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu was shot by Skeleton
+[13Dec2024 01:21:55.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> q fue
+[13Dec2024 01:21:58.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> farlands
+[13Dec2024 01:22:06.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to fabianekisde]
+[13Dec2024 01:22:35.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> pense que estabas creativo bb
+[13Dec2024 01:22:40.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> uwu
+[13Dec2024 01:22:43.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> difamaciones de eduardo
+[13Dec2024 01:23:03.318] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87 timed out
+[13Dec2024 01:23:03.319] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player fabianekisde
+[13Dec2024 01:23:03.320] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to fabianekisde
+[13Dec2024 01:23:15.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Set own game mode to Survival Mode]
+[13Dec2024 01:23:22.099] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fabianekisde lost connection: Timed out
+[13Dec2024 01:23:22.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde left the game
+[13Dec2024 01:23:22.101] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client fabianekisde
+[13Dec2024 01:24:14.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 01:24:24.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 has made the advancement [Getting an Upgrade]
+[13Dec2024 01:25:12.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu has made the advancement [Acquire Hardware]
+[13Dec2024 01:25:17.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu has made the advancement [Suit Up]
+[13Dec2024 01:25:31.008] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fabianekisde[/100.90.168.86:49797] logged in with entity id 4648 at (84.60548109782962, 77.0, 257.30000001192093)
+[13Dec2024 01:25:31.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde joined the game
+[13Dec2024 01:25:31.036] [Server thread/INFO] [Jade/]: Syncing config to fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87)
+[13Dec2024 01:25:31.614] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of fabianekisde (18)
+[13Dec2024 01:25:31.614] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to fabianekisde
+[13Dec2024 01:25:33.663] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:25:34.666] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:25:34.666] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87) successfully connected to voice chat
+[13Dec2024 01:26:07.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> ok
+[13Dec2024 01:26:42.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde was slain by Zombie
+[13Dec2024 01:27:03.741] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fabianekisde lost connection: Disconnected
+[13Dec2024 01:27:03.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde left the game
+[13Dec2024 01:27:03.742] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client fabianekisde
+[13Dec2024 01:27:44.148] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fabianekisde[/100.90.168.86:49834] logged in with entity id 5228 at (-21.35272589166698, 66.0, 34.06427727156011)
+[13Dec2024 01:27:44.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde joined the game
+[13Dec2024 01:27:44.189] [Server thread/INFO] [Jade/]: Syncing config to fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87)
+[13Dec2024 01:27:44.772] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of fabianekisde (18)
+[13Dec2024 01:27:44.773] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to fabianekisde
+[13Dec2024 01:27:46.697] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:27:47.698] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:27:47.699] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87) successfully connected to voice chat
+[13Dec2024 01:28:04.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> oe ptmr
+[13Dec2024 01:28:09.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 was shot by Skeleton
+[13Dec2024 01:28:11.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde was blown up by Creeper
+[13Dec2024 01:28:21.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> fabian estas volando? XD
+[13Dec2024 01:28:23.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 01:28:26.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> no xd
+[13Dec2024 01:28:33.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to fabianekisde]
+[13Dec2024 01:28:38.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> mira
+[13Dec2024 01:28:50.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> me shiftea
+[13Dec2024 01:28:58.494] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	Index: 8
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.man.procedures.TimerglobalProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		2: ASM: class net.mcreator.man.procedures.NosleepProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		3: ASM: class net.mcreator.man.procedures.LookProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		4: ASM: class net.mcreator.man.procedures.JumpscareoverlayingameProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		5: ASM: class net.mcreator.man.procedures.Jumpscareoverlayig2Procedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		6: ASM: class net.mcreator.man.procedures.JumpscareoverlayProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		7: ASM: com.lgow.endofherobrine.event.WrathHandler@3a44f9e1 wrathAdvancement(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		8: ASM: class net.mcreator.theknocker.procedures.RandomspawnProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		9: ASM: class net.mcreator.theknocker.procedures.PlayertickProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		10: ASM: class net.mcreator.theknocker.procedures.NightCounterProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		11: ASM: class net.mcreator.theknocker.procedures.CansleepProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		12: ASM: class tictim.paraglider.forge.event.ParagliderEventHandler onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		13: ASM: class net.mcreator.spelunkerscharm.procedures.PlayerTickHandlerProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		14: ASM: team.creative.playerrevive.server.ReviveEventServer@6e156666 playerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.SpawnknockerProcedure.execute(SpawnknockerProcedure.java:68)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomeventProcedure.execute(RandomeventProcedure.java:23)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomspawnProcedure.execute(RandomspawnProcedure.java:108)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomspawnProcedure.onPlayerTick(RandomspawnProcedure.java:32)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.__RandomspawnProcedure_onPlayerTick_PlayerTickEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.10/net.minecraftforge.event.ForgeEventFactory.onPlayerPostTick(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_8119_(Player.java:285)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.Connection.m_129483_(Connection.java:263)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[13Dec2024 01:28:58.532] [Server thread/WARN] [net.minecraft.server.network.ServerConnectionListener/]: Failed to handle packet for /100.90.168.86:49834
+net.minecraft.ReportedException: Ticking player
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:530) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	at net.mcreator.theknocker.procedures.SpawnknockerProcedure.execute(SpawnknockerProcedure.java:68) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.mcreator.theknocker.procedures.RandomeventProcedure.execute(RandomeventProcedure.java:23) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.mcreator.theknocker.procedures.RandomspawnProcedure.execute(RandomspawnProcedure.java:108) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.mcreator.theknocker.procedures.RandomspawnProcedure.onPlayerTick(RandomspawnProcedure.java:32) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.mcreator.theknocker.procedures.__RandomspawnProcedure_onPlayerTick_PlayerTickEvent.invoke(.dynamic) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.onPlayerPostTick(ForgeEventFactory.java:920) ~[forge-1.20.1-47.3.10-universal.jar%23172!/:?]
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:285) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	... 9 more
+[13Dec2024 01:28:58.548] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fabianekisde lost connection: Internal server error
+[13Dec2024 01:28:58.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde left the game
+[13Dec2024 01:28:58.549] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client fabianekisde
+[13Dec2024 01:29:14.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 01:30:11.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 was slain by Only_Edu
+[13Dec2024 01:30:31.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 01:32:36.191] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@733deec0[id=<null>,name=fabianekisde,properties={},legacy=false] (/100.90.168.86:49863) lost connection: Disconnected
+[13Dec2024 01:32:44.484] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-130, y=68, z=141}
+[13Dec2024 01:32:49.546] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fabianekisde[/100.90.168.86:49877] logged in with entity id 6480 at (-28.98036951689559, 66.0, 52.765975201348425)
+[13Dec2024 01:32:49.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde joined the game
+[13Dec2024 01:32:49.585] [Server thread/INFO] [Jade/]: Syncing config to fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87)
+[13Dec2024 01:32:49.808] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of fabianekisde (18)
+[13Dec2024 01:32:49.809] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to fabianekisde
+[13Dec2024 01:32:50.858] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:32:51.860] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:32:51.860] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87) successfully connected to voice chat
+[13Dec2024 01:32:55.093] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: arlinxnt[/100.74.70.118:50919] logged in with entity id 6531 at (-3.5, 68.0, -3.5)
+[13Dec2024 01:32:55.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt joined the game
+[13Dec2024 01:32:55.124] [Server thread/INFO] [Jade/]: Syncing config to arlinxnt (75757f10-7591-37ef-9a66-092248e053d5)
+[13Dec2024 01:32:55.331] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of arlinxnt (18)
+[13Dec2024 01:32:55.331] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to arlinxnt
+[13Dec2024 01:32:56.239] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 75757f10-7591-37ef-9a66-092248e053d5
+[13Dec2024 01:32:57.291] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 75757f10-7591-37ef-9a66-092248e053d5
+[13Dec2024 01:32:57.292] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player arlinxnt (75757f10-7591-37ef-9a66-092248e053d5) successfully connected to voice chat
+[13Dec2024 01:35:23.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 has made the advancement [Acquire Hardware]
+[13Dec2024 01:35:31.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 has made the advancement [Isn't It Iron Pick]
+[13Dec2024 01:36:13.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt has reached the goal [Feeling Watched]
+[13Dec2024 01:36:15.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> queseso
+[13Dec2024 01:36:17.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 has made the advancement [Suit Up]
+[13Dec2024 01:36:19.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> un palo
+[13Dec2024 01:36:27.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> escapen XDDD
+[13Dec2024 01:36:46.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> tiene 2 cabezas xd
+[13Dec2024 01:36:46.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported arlinxnt to doriopicante17]
+[13Dec2024 01:36:58.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabianekisde> siren head
+[13Dec2024 01:36:58.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> eso si nose que sera XDDD
+[13Dec2024 01:39:49.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> cualquier cosa al dc
+[13Dec2024 01:41:07.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt has made the advancement [Stone Age]
+[13Dec2024 01:42:35.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt has made the advancement [Getting an Upgrade]
+[13Dec2024 01:44:15.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt has made the advancement [Monster Hunter]
+[13Dec2024 01:45:02.994] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fabianekisde lost connection: Disconnected
+[13Dec2024 01:45:02.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde left the game
+[13Dec2024 01:45:02.996] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client fabianekisde
+[13Dec2024 01:45:11.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt was slain by doriopicante17
+[13Dec2024 01:45:14.534] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=-79, y=69, z=96}
+[13Dec2024 01:45:17.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported arlinxnt to doriopicante17]
+[13Dec2024 01:45:20.195] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fabianekisde[/100.90.168.86:49991] logged in with entity id 10584 at (255.30000001192093, 49.0, 137.68652488617516)
+[13Dec2024 01:45:20.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde joined the game
+[13Dec2024 01:45:20.211] [Server thread/INFO] [Jade/]: Syncing config to fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87)
+[13Dec2024 01:45:20.454] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of fabianekisde (18)
+[13Dec2024 01:45:20.456] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to fabianekisde
+[13Dec2024 01:45:21.389] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:45:22.391] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 01fdbeb1-1d67-3dbe-aa3e-6046dea52c87
+[13Dec2024 01:45:22.392] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player fabianekisde (01fdbeb1-1d67-3dbe-aa3e-6046dea52c87) successfully connected to voice chat
+[13Dec2024 01:45:27.447] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fabianekisde lost connection: Disconnected
+[13Dec2024 01:45:27.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabianekisde left the game
+[13Dec2024 01:45:27.448] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client fabianekisde
+[13Dec2024 01:46:09.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 01:46:47.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 was slain by Only_Edu
+[13Dec2024 01:46:54.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to arlinxnt]
+[13Dec2024 01:48:17.331] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-18, y=19, z=78} BlockPos{x=-6, y=9, z=-1}
+[13Dec2024 01:48:19.531] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-18, y=19, z=78} BlockPos{x=-14, y=10, z=-1}
+[13Dec2024 01:48:19.581] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-18, y=19, z=78} BlockPos{x=-13, y=10, z=-1}
+[13Dec2024 01:50:23.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 has made the advancement [Diamonds!]
+[13Dec2024 01:51:09.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 has made the advancement [Not Today, Thank You]
+[13Dec2024 01:52:22.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu has made the advancement [Isn't It Iron Pick]
+[13Dec2024 01:52:40.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt has made the advancement [Acquire Hardware]
+[13Dec2024 01:56:12.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 starved to death
+[13Dec2024 01:56:18.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to arlinxnt]
+[13Dec2024 01:56:57.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt fell from a high place
+[13Dec2024 01:57:07.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> ya tepea
+[13Dec2024 01:57:09.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported arlinxnt to doriopicante17]
+[13Dec2024 01:57:55.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt has made the advancement [Suit Up]
+[13Dec2024 01:59:29.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 was shot by Skeleton
+[13Dec2024 01:59:33.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to arlinxnt]
+[13Dec2024 02:00:09.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu has made the advancement [Diamonds!]
+[13Dec2024 02:00:16.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> ven
+[13Dec2024 02:00:58.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> a alguien mas se lea acaba la comida rapido
+[13Dec2024 02:01:07.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 was slain by Zombie
+[13Dec2024 02:01:10.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> regala comida
+[13Dec2024 02:01:12.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> :c
+[13Dec2024 02:01:24.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> ven
+[13Dec2024 02:01:26.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> no xd
+[13Dec2024 02:02:15.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt was blown up by Creeper
+[13Dec2024 02:02:21.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported arlinxnt to doriopicante17]
+[13Dec2024 02:03:56.458] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	Index: 8
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.man.procedures.TimerglobalProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		2: ASM: class net.mcreator.man.procedures.NosleepProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		3: ASM: class net.mcreator.man.procedures.LookProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		4: ASM: class net.mcreator.man.procedures.JumpscareoverlayingameProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		5: ASM: class net.mcreator.man.procedures.Jumpscareoverlayig2Procedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		6: ASM: class net.mcreator.man.procedures.JumpscareoverlayProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		7: ASM: com.lgow.endofherobrine.event.WrathHandler@3a44f9e1 wrathAdvancement(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		8: ASM: class net.mcreator.theknocker.procedures.RandomspawnProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		9: ASM: class net.mcreator.theknocker.procedures.PlayertickProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		10: ASM: class net.mcreator.theknocker.procedures.NightCounterProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		11: ASM: class net.mcreator.theknocker.procedures.CansleepProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		12: ASM: class tictim.paraglider.forge.event.ParagliderEventHandler onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		13: ASM: class net.mcreator.spelunkerscharm.procedures.PlayerTickHandlerProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		14: ASM: team.creative.playerrevive.server.ReviveEventServer@6e156666 playerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.SpawnknockerProcedure.execute(SpawnknockerProcedure.java:68)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomeventProcedure.execute(RandomeventProcedure.java:23)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomspawnProcedure.execute(RandomspawnProcedure.java:108)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomspawnProcedure.onPlayerTick(RandomspawnProcedure.java:32)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.__RandomspawnProcedure_onPlayerTick_PlayerTickEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.10/net.minecraftforge.event.ForgeEventFactory.onPlayerPostTick(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_8119_(Player.java:285)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.Connection.m_129483_(Connection.java:263)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[13Dec2024 02:03:56.493] [Server thread/WARN] [net.minecraft.server.network.ServerConnectionListener/]: Failed to handle packet for /100.114.224.29:51285
+net.minecraft.ReportedException: Ticking player
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:530) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	at net.mcreator.theknocker.procedures.SpawnknockerProcedure.execute(SpawnknockerProcedure.java:68) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.mcreator.theknocker.procedures.RandomeventProcedure.execute(RandomeventProcedure.java:23) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.mcreator.theknocker.procedures.RandomspawnProcedure.execute(RandomspawnProcedure.java:108) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.mcreator.theknocker.procedures.RandomspawnProcedure.onPlayerTick(RandomspawnProcedure.java:32) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.mcreator.theknocker.procedures.__RandomspawnProcedure_onPlayerTick_PlayerTickEvent.invoke(.dynamic) ~[the_knocker-1.4.0-forge-1.20.1.jar%23163!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.onPlayerPostTick(ForgeEventFactory.java:920) ~[forge-1.20.1-47.3.10-universal.jar%23172!/:?]
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:285) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
+	... 9 more
+[13Dec2024 02:03:56.523] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: doriopicante17 lost connection: Internal server error
+[13Dec2024 02:03:56.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 left the game
+[13Dec2024 02:03:56.524] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client doriopicante17
+[13Dec2024 02:04:01.953] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: doriopicante17[/100.114.224.29:51850] logged in with entity id 15615 at (-134.47171390500733, 64.0, 30.60204317628679)
+[13Dec2024 02:04:01.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 joined the game
+[13Dec2024 02:04:01.999] [Server thread/INFO] [Jade/]: Syncing config to doriopicante17 (fd2d656f-c95b-38f2-bf73-ddb5b769f932)
+[13Dec2024 02:04:02.191] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of doriopicante17 (18)
+[13Dec2024 02:04:02.192] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to doriopicante17
+[13Dec2024 02:04:03.444] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fd2d656f-c95b-38f2-bf73-ddb5b769f932
+[13Dec2024 02:04:04.457] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fd2d656f-c95b-38f2-bf73-ddb5b769f932
+[13Dec2024 02:04:04.458] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player doriopicante17 (fd2d656f-c95b-38f2-bf73-ddb5b769f932) successfully connected to voice chat
+[13Dec2024 02:05:14.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> OE UN SILBIDO
+[13Dec2024 02:05:23.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> es con nosotros XD
+[13Dec2024 02:05:36.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> que
+[13Dec2024 02:05:52.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> habia uno con nosotros XD
+[13Dec2024 02:06:30.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * Only_Edu pain
+[13Dec2024 02:06:40.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> que
+[13Dec2024 02:06:41.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> QUE MRD XD
+[13Dec2024 02:06:46.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> WTF
+[13Dec2024 02:06:54.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> hacker
+[13Dec2024 02:07:13.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * Only_Edu only you... jeh jeh jhe
+[13Dec2024 02:07:20.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> OE
+[13Dec2024 02:07:22.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> eduardo
+[13Dec2024 02:07:23.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> ?
+[13Dec2024 02:07:25.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> XD
+[13Dec2024 02:07:25.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> JAJAJAJAJAJAJAJA
+[13Dec2024 02:07:28.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> chao
+[13Dec2024 02:07:30.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> QUE MRD CTMR
+[13Dec2024 02:07:36.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> YA FUISTE xddd
+[13Dec2024 02:07:36.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> hasta nunca
+[13Dec2024 02:07:38.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> TE BUSCNA
+[13Dec2024 02:07:57.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * Only_Edu I´m the only one ...
+[13Dec2024 02:08:03.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> QUE MRD
+[13Dec2024 02:08:05.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> eh no
+[13Dec2024 02:08:09.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> dejalo asi
+[13Dec2024 02:08:26.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * Only_Edu goodbye...........
+[13Dec2024 02:08:33.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> eduardo? XDDD
+[13Dec2024 02:08:34.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * Only_Edu . . .
+[13Dec2024 02:08:37.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> OE
+[13Dec2024 02:08:37.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 02:08:39.641] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Only_Edu lost connection: Disconnected
+[13Dec2024 02:08:39.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu left the game
+[13Dec2024 02:08:39.642] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Only_Edu
+[13Dec2024 02:08:43.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> jajajaj
+[13Dec2024 02:08:58.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported arlinxnt to doriopicante17]
+[13Dec2024 02:09:00.850] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Only_Edu[/100.121.11.80:58895] logged in with entity id 16866 at (-95.61873085964373, -18.0, 104.46491529606952)
+[13Dec2024 02:09:00.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu joined the game
+[13Dec2024 02:09:00.896] [Server thread/INFO] [Jade/]: Syncing config to Only_Edu (324a55c4-c49b-345c-bcad-20ad62fbcf82)
+[13Dec2024 02:09:01.244] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Only_Edu (18)
+[13Dec2024 02:09:01.245] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Only_Edu
+[13Dec2024 02:09:04.698] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 324a55c4-c49b-345c-bcad-20ad62fbcf82
+[13Dec2024 02:09:05.697] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 324a55c4-c49b-345c-bcad-20ad62fbcf82
+[13Dec2024 02:09:05.698] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Only_Edu (324a55c4-c49b-345c-bcad-20ad62fbcf82) successfully connected to voice chat
+[13Dec2024 02:10:05.534] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-57, y=70, z=126}
+[13Dec2024 02:10:49.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 02:10:57.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 02:11:20.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported arlinxnt to doriopicante17]
+[13Dec2024 02:11:34.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Killed doriopicante17]
+[13Dec2024 02:11:40.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 was killed
+[13Dec2024 02:11:55.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <doriopicante17> estare aca arriba buscando comida XD
+[13Dec2024 02:12:10.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> tp
+[13Dec2024 02:12:14.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported Only_Edu to doriopicante17]
+[13Dec2024 02:12:14.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Only_Edu> quiero subir tmb
+[13Dec2024 02:12:17.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arlinxnt> tp
+[13Dec2024 02:12:23.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported arlinxnt to doriopicante17]
+[13Dec2024 02:13:27.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 has made the advancement [Best Friends Forever]
+[13Dec2024 02:14:27.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt has made the advancement [Best Friends Forever]
+[13Dec2024 02:17:01.081] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kvaratskhelia[/100.97.54.92:62780] logged in with entity id 20882 at (-9.5, 66.0, 4.5)
+[13Dec2024 02:17:01.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kvaratskhelia joined the game
+[13Dec2024 02:17:01.132] [Server thread/INFO] [Jade/]: Syncing config to Kvaratskhelia (dd21adf4-498a-3366-9bd3-26823d78c520)
+[13Dec2024 02:17:03.027] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Kvaratskhelia (18)
+[13Dec2024 02:17:03.028] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Kvaratskhelia
+[13Dec2024 02:17:18.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt fell from a high place
+[13Dec2024 02:17:57.579] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=65, z=4}
+[13Dec2024 02:17:57.629] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=65, z=4}
+[13Dec2024 02:17:58.680] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=65, z=4}
+[13Dec2024 02:17:58.728] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-10, y=65, z=4}
+[13Dec2024 02:18:02.257] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kvaratskhelia lost connection: Disconnected
+[13Dec2024 02:18:02.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kvaratskhelia left the game
+[13Dec2024 02:18:02.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kvaratskhelia was slain by Wolf
+[13Dec2024 02:18:02.259] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Kvaratskhelia
+[13Dec2024 02:18:23.890] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kvaratskhelia[/100.97.54.92:62789] logged in with entity id 22082 at (-9.5, 66.0, 4.5)
+[13Dec2024 02:18:23.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kvaratskhelia joined the game
+[13Dec2024 02:18:23.953] [Server thread/INFO] [Jade/]: Syncing config to Kvaratskhelia (dd21adf4-498a-3366-9bd3-26823d78c520)
+[13Dec2024 02:18:24.512] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Kvaratskhelia (18)
+[13Dec2024 02:18:24.513] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Kvaratskhelia
+[13Dec2024 02:19:05.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 02:19:24.897] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kvaratskhelia lost connection: Timed out
+[13Dec2024 02:19:24.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kvaratskhelia left the game
+[13Dec2024 02:19:24.898] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Kvaratskhelia
+[13Dec2024 02:20:12.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to arlinxnt]
+[13Dec2024 02:20:22.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu was slain by Man From The Fog
+[13Dec2024 02:20:26.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported Only_Edu to doriopicante17]
+[13Dec2024 02:21:23.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [doriopicante17: Teleported doriopicante17 to Only_Edu]
+[13Dec2024 02:22:07.394] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: doriopicante17 lost connection: Disconnected
+[13Dec2024 02:22:07.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: doriopicante17 left the game
+[13Dec2024 02:22:07.396] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client doriopicante17
+[13Dec2024 02:22:07.592] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Only_Edu lost connection: Disconnected
+[13Dec2024 02:22:07.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only_Edu left the game
+[13Dec2024 02:22:07.593] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Only_Edu
+[13Dec2024 02:22:18.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Dec2024 02:22:18.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Dec2024 02:22:18.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Dec2024 02:22:18.789] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: arlinxnt lost connection: Server closed
+[13Dec2024 02:22:18.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arlinxnt left the game
+[13Dec2024 02:22:18.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Dec2024 02:22:19.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13Dec2024 02:22:20.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13Dec2024 02:22:20.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13Dec2024 02:22:20.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/leftbehind:pocket
+[13Dec2024 02:22:20.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Dec2024 02:22:20.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Dec2024 02:22:20.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Dec2024 02:22:20.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket): All chunks are saved
+[13Dec2024 02:22:20.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Dec2024 02:22:20.099] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs

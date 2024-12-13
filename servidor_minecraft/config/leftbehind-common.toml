@@ -1,0 +1,14 @@
+
+["Configs for Left Behind Mod"]
+
+	["Configs for Left Behind Mod"."Scp_1879 Spawn Config"]
+		#Chance to spawn
+		#Range: 0 ~ 100
+		"Spawn Chance" = 20
+		#Ticks to spawn after the server starts
+		#Range: > 0
+		"Spawn Delay" = 24000
+		#Change spawn chance after spawning fails
+		#Range: -100 ~ 100
+		"Spawn Chance Increase" = 20
+
